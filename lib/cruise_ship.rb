@@ -9,5 +9,7 @@
 def select_winner(passengers)
   winner = ""
   passengers.each do |room, name| 
-    if room == :suite_a && name.starts_with "A"
+    if room == :suite_a && name.starts_with ("A") 
+      return name 
+    end 
 end
