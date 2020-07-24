@@ -12,4 +12,5 @@ def select_winner(passengers)
     if room == :suite_a && name.starts_with ("A") 
       return name 
     end 
+  end 
 end
